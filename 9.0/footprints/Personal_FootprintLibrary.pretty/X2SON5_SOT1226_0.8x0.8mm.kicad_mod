@@ -1,0 +1,222 @@
+(footprint "X2SON5_SOT1226_0.8x0.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XDFN4 w/ EPAD, 1.0x1.0mm")
+	(tags "XDFN4")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "5831c002-47eb-43e3-ba80-dd279fecaa9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "X2SON5_SOT1226_0.8x0.8mm"
+		(at 0.5 -1.74 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e18b36a-eca5-41b8-b2c5-c5a6ba6db341")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "443d1fcf-35b9-4b02-8d02-c223e977216f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7a051a-fecd-42fe-9de7-0d2f60805487")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0)
+	(attr smd allow_soldermask_bridges)
+	(fp_poly
+		(pts
+			(xy -0.45 -0.55) (xy 0.45 -0.55) (xy 0.45 0.55) (xy -0.45 0.55)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3e1bb998-2e7c-4cdf-9fa3-07bd1789dc34")
+	)
+	(fp_poly
+		(pts
+			(xy -0.65 0.65) (xy -0.65 -0.45) (xy -0.45 -0.65) (xy 0.65 -0.65) (xy 0.65 0.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8d7869af-472f-4140-8fd2-0c69f9215d4d")
+	)
+	(fp_rect
+		(start -0.65 -0.75)
+		(end 0.65 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "40232cff-8a4b-473c-a162-52938f83d9c9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 0.4) (xy 0.4 -0.4) (xy -0.2 -0.4) (xy -0.4 -0.2) (xy -0.4 0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae0f3f43-4f44-4326-a9cf-be3060a027ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "907a17d8-7c69-4493-91ab-d7df8bb73a2f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.295 -0.36 270)
+		(size 0.28 0.21)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.02)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.05 -0.195) (xy -0.14 -0.195) (xy -0.14 0.105) (xy 0.22 0.105) (xy 0.22 -0.025)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "adeeebc5-e12b-4b61-97de-f75303fc479b")
+	)
+	(pad "2" smd custom
+		(at 0.295 -0.36 90)
+		(size 0.28 0.21)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.02)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.05 -0.195) (xy 0.14 -0.195) (xy 0.14 0.105) (xy -0.22 0.105) (xy -0.22 -0.025)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6981c887-f707-4730-b722-274766d9f692")
+	)
+	(pad "3" smd rect
+		(at 0 0 135)
+		(size 0.28 0.28)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.03)
+		(solder_paste_margin 0)
+		(uuid "ce8d3bd9-5d3f-45e3-a6f1-7848c33ef7a0")
+	)
+	(pad "4" smd custom
+		(at 0.295 0.36 270)
+		(size 0.28 0.21)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.02)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.05 0.195) (xy 0.14 0.195) (xy 0.14 -0.105) (xy -0.22 -0.105) (xy -0.22 0.025)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a447dbab-bd23-4ad3-a027-bf14174dc709")
+	)
+	(pad "5" smd custom
+		(at -0.295 0.36 90)
+		(size 0.28 0.21)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.02)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.05 0.195) (xy -0.14 0.195) (xy -0.14 -0.105) (xy 0.22 -0.105) (xy 0.22 0.025)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "62bffcd7-730c-45fc-9770-d9d941526067")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/X2SON5.STEP"
+		(offset
+			(xyz 0.5 -0.15 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,306 @@
+(footprint "u.FL_Male_Pin_Coax_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "u.FL IPEX UMCC AMC MHFI SMD Coax Recepticle 2mm 1.25mm")
+	(tags "u.FL IPEX UMCC AMC MHFI SMD Coax Recepticle 2mm 1.25mm")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "d9a75c08-4b83-4174-87f7-430ad1136551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "u.FL_Male_Pin_Coax_SMD"
+		(at 0.475 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e48c7ff6-3195-43c8-9320-e27b906e9155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65035976-294d-40d6-9dc1-96478092a804")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c417acb-2238-44ff-b19f-48567bcbc3cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.95 -1.05)
+		(end 0.95 1.05)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b9af4ab4-65ac-4231-8852-ded0d1374aa2")
+	)
+	(fp_line
+		(start -2.25 -1.75)
+		(end -2.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9e0b9b7-7a57-43d4-ab65-8ec68aef3716")
+	)
+	(fp_line
+		(start -2.25 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df2c7481-26a6-4afb-b84e-4c6365518820")
+	)
+	(fp_line
+		(start -2.25 1.5)
+		(end -0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d046c4c9-3426-4e9a-86ab-644e32adffec")
+	)
+	(fp_line
+		(start -0.75 1.5)
+		(end -0.75 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2a0997f-5f3e-4aec-99df-56f6fd3c57f4")
+	)
+	(fp_line
+		(start -0.75 2.05)
+		(end -0.45 2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bc54ee8-15ce-4a4d-b20e-e8aaf4b6fd9e")
+	)
+	(fp_line
+		(start 0.75 1.5)
+		(end 0.75 2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c75768-6f12-4a65-a5ac-3a001bdbb2a3")
+	)
+	(fp_line
+		(start 0.75 2.35)
+		(end -0.45 2.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "728faa4b-4bbf-47d6-8753-604d52784962")
+	)
+	(fp_line
+		(start 2.25 -1.75)
+		(end 2.25 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "986582ad-01fd-489d-aaf5-44e07c375889")
+	)
+	(fp_line
+		(start 2.25 1.5)
+		(end 0.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f47cb2af-52c5-4470-a840-16bba333c3f0")
+	)
+	(fp_rect
+		(start -2.25 -1.75)
+		(end 2.25 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4cfba9bf-593a-459e-8d95-55bc4cdd6049")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "280c1254-a3b2-4d34-8c63-8422302502b0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f0d23939-4c18-4d20-8edd-48243966852d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 0.9) (xy 1.5 -0.9) (xy 1.3 -0.9)
+			(arc
+				(start 1.3 -1)
+				(mid 1.212132 -1.212132)
+				(end 1 -1.3)
+			)
+			(xy 0.3 -1.3) (xy 0.3 -1.55) (xy -0.3 -1.55) (xy -0.3 -1.3)
+			(arc
+				(start -1 -1.3)
+				(mid -1.212132 -1.212132)
+				(end -1.3 -1)
+			)
+			(xy -1.3 -0.9) (xy -1.5 -0.9) (xy -1.5 0.9) (xy -1.3 0.9)
+			(arc
+				(start -1.3 1)
+				(mid -1.212132 1.212132)
+				(end -1 1.3)
+			)
+			(xy -0.3 1.3) (xy -0.3 1.55) (xy 0.3 1.55) (xy 0.3 1.3)
+			(arc
+				(start 1 1.3)
+				(mid 1.212132 1.212132)
+				(end 1.3 1)
+			)
+			(xy 1.3 0.9)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc8fc848-c09a-44c2-9f69-f0f4cbbea85e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7502f11a-fb1f-4564-a0a1-4aa8c2bb70f9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.575)
+		(size 1 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d78d8383-8664-4e6b-bb5e-9b8707b7ca09")
+	)
+	(pad "2" smd rect
+		(at -1.475 0.05)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ba99b6f-8bb9-4777-84b6-38edaa8dc433")
+	)
+	(pad "2" smd rect
+		(at 1.475 0.05)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6bb34dfb-08b9-40f3-9b09-1762a87b8d0a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "18f54a49-6a7a-4690-a1cd-b6eba03e1ef7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.95 -1.050001) (xy -0.95 1.049999) (xy 0.95 1.049999) (xy 0.95 -1.050001)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/c-2337019-1-a2-3d.stp"
+		(offset
+			(xyz 0 0 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

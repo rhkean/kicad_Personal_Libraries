@@ -1,0 +1,245 @@
+(footprint "XDFN4_1.0x1.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XDFN4 w/ EPAD, 1.0x1.0mm")
+	(tags "XDFN4")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "5831c002-47eb-43e3-ba80-dd279fecaa9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "XDFN4_1.0x1.0mm"
+		(at 0.5 -1.74 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e18b36a-eca5-41b8-b2c5-c5a6ba6db341")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "443d1fcf-35b9-4b02-8d02-c223e977216f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7a051a-fecd-42fe-9de7-0d2f60805487")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.7)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac171e64-9f55-4785-ae0a-3eaeed1f5569")
+	)
+	(fp_line
+		(start -0.7 -0.7)
+		(end 0.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f414857-395e-4a12-8d09-161aa5256557")
+	)
+	(fp_line
+		(start -0.7 0.5)
+		(end -0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e23d270e-ba98-4864-a0ab-49e624a80a3d")
+	)
+	(fp_line
+		(start -0.5 0.7)
+		(end 0.7 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6f2f860-1fc9-4b03-a61f-df57e28f79b4")
+	)
+	(fp_line
+		(start 0.7 0.7)
+		(end 0.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8351203e-90b8-4649-8b9a-ca1d92f9e58d")
+	)
+	(fp_rect
+		(start -0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "40232cff-8a4b-473c-a162-52938f83d9c9")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae5b46ef-ce37-418c-a038-36440cf9aa84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "907a17d8-7c69-4493-91ab-d7df8bb73a2f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.325 0.48)
+		(size 0.26 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.02 -0.27) (xy -0.13 -0.27) (xy -0.13 0.12) (xy 0.13 0.12) (xy 0.13 -0.12)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "adeeebc5-e12b-4b61-97de-f75303fc479b")
+	)
+	(pad "2" smd custom
+		(at 0.325 0.48)
+		(size 0.26 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.02 -0.27) (xy 0.13 -0.27) (xy 0.13 0.12) (xy -0.13 0.12) (xy -0.13 -0.12)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "44ef6f26-7e46-4dc4-b491-0840a3f52efc")
+	)
+	(pad "3" smd custom
+		(at 0.325 -0.48 180)
+		(size 0.26 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.02 -0.27) (xy -0.13 -0.27) (xy -0.13 0.12) (xy 0.13 0.12) (xy 0.13 -0.12)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "549931f7-355d-4a38-b731-bfe010726c0c")
+	)
+	(pad "4" smd custom
+		(at -0.325 -0.48 180)
+		(size 0.26 0.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.02 -0.27) (xy 0.13 -0.27) (xy 0.13 0.12) (xy -0.13 0.12) (xy -0.13 -0.12)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7cceaccb-3837-44fe-bdd5-155e8c8186bd")
+	)
+	(pad "EP" smd roundrect
+		(at 0 0 225)
+		(size 0.52 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09615384615)
+		(uuid "ce8d3bd9-5d3f-45e3-a6f1-7848c33ef7a0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_XDFN4-1EP_1.0x1.0mm_EP0.52x0.52mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

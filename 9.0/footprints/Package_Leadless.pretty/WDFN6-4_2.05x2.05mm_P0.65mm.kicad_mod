@@ -1,0 +1,228 @@
+(footprint "WDFN6-4_2.05x2.05mm_P0.65mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a19cbf63-5fbd-45ca-94f9-401a9a7a8692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "WDFN6-4_2.05x2.05mm_P0.65mm"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8602ba36-63c9-4b3a-8120-4a4837972409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "921a2b20-8c2d-4796-86ee-8a2368a75bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "900708cc-d6fb-4281-84aa-dd08fd6f2a15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4978ca2-7e36-4554-b1c5-9188c972269b")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1.2) (xy -1.2 -1.2) (xy -1.1 -1.026795)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "862c1e49-f765-4503-be93-ee3db0c7e0e3")
+	)
+	(fp_rect
+		(start -1.275 -1.275)
+		(end 1.275 1.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ab435d25-0db1-4684-b2ea-b280b91a57d9")
+	)
+	(fp_poly
+		(pts
+			(xy -1.025 1.025) (xy 1.025 1.025) (xy 1.025 -1.025) (xy -0.525 -1.025) (xy -1.025 -0.52525)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29926d09-6b15-4f2b-a28d-2447706bdd34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5277c66-1d27-438c-87f3-9015d82f17fc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -0.325)
+		(size 1.56 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.78 -0.075)
+						(mid 0.794645 -0.110355)
+						(end 0.83 -0.125)
+					)
+					(arc
+						(start 1.1 -0.125)
+						(mid 1.135355 -0.139645)
+						(end 1.15 -0.175)
+					)
+					(arc
+						(start 1.15 -0.475)
+						(mid 1.135355 -0.510355)
+						(end 1.1 -0.525)
+					)
+					(arc
+						(start -1.1 -0.525)
+						(mid -1.135355 -0.510355)
+						(end -1.15 -0.475)
+					)
+					(arc
+						(start -1.15 -0.175)
+						(mid -1.135355 -0.139645)
+						(end -1.1 -0.125)
+					)
+					(arc
+						(start -0.83 -0.125)
+						(mid -0.794645 -0.110355)
+						(end -0.78 -0.075)
+					)
+					(arc
+						(start -0.78 0.075)
+						(mid -0.794645 0.110355)
+						(end -0.83 0.125)
+					)
+					(arc
+						(start -1.1 0.125)
+						(mid -1.135355 0.139645)
+						(end -1.15 0.175)
+					)
+					(arc
+						(start -1.15 0.475)
+						(mid -1.135355 0.510355)
+						(end -1.1 0.525)
+					)
+					(arc
+						(start 1.1 0.525)
+						(mid 1.135355 0.510355)
+						(end 1.15 0.475)
+					)
+					(arc
+						(start 1.15 0.175)
+						(mid 1.135355 0.139645)
+						(end 1.1 0.125)
+					)
+					(arc
+						(start 0.83 0.125)
+						(mid 0.794645 0.110355)
+						(end 0.78 0.075)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b24dcef0-893e-4410-895a-640a6d37bd0e")
+	)
+	(pad "2" smd roundrect
+		(at -0.9125 0.65)
+		(size 0.475 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "83a4c970-f10a-461d-8bd4-099859fdf354")
+	)
+	(pad "3" smd roundrect
+		(at 0 0.65)
+		(size 0.66 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "71311863-6965-44ac-8899-90f1d6ec9f77")
+	)
+	(pad "4" smd roundrect
+		(at 0.9125 0.65)
+		(size 0.475 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "65bf34cd-d048-4b25-b795-6e6c0ecfa65c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/NTLJS17D0P03P8Z.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

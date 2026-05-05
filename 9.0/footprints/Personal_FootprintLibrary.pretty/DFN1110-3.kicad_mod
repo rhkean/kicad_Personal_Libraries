@@ -1,0 +1,193 @@
+(footprint "DFN1110-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN, 1.1x1.0mm, 3 pin")
+	(tags "DFN1110-3, DFN, 1.1x1.0mm, 3 pinDFN, 3 pin")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4031e2b4-9e14-40d2-b766-68e9b917caed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "DFN1110-3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e760cb3a-b8a4-4ac9-9fdc-1cbbb24db21a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "585c5a11-40dd-40ae-ac75-0ee9f0d244b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DFN1110-3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a8eeb70-caf8-4a0d-b058-5035c083bf2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.65)
+		(end 0.9 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee3cfd58-aef4-41ab-a4b6-45821293d8ec")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end -0.9 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4812105-9047-4db0-a889-3120ef8d2139")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end -0.7 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00f23f0c-49b7-48cb-876b-76789ce02b02")
+	)
+	(fp_line
+		(start 0.9 -0.65)
+		(end 0.9 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "363b560d-4c3d-4618-a257-a460ed8cf086")
+	)
+	(fp_line
+		(start 0.9 0.65)
+		(end -0.7 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e7082e2-b362-4e01-8451-71e675cc93f6")
+	)
+	(fp_rect
+		(start -0.75 -0.8)
+		(end 0.75 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "61e4ba78-193b-4b16-9d5e-7d07b8659604")
+	)
+	(fp_rect
+		(start -0.5 -0.55)
+		(end 0.5 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e970e97a-f221-4b03-aae1-4aacdea06a66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d4217b47-f84c-441e-b40a-bc49aaff3a39")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.475 0.325)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "3b1909d9-9ce1-4004-b8da-b5fdc05e3332")
+	)
+	(pad "2" smd rect
+		(at -0.475 -0.325)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "985178fd-9f03-42a3-99d7-9d5a15885032")
+	)
+	(pad "3" smd custom
+		(at 0.2 0)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin_ratio -0.1)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.175 -0.125) (xy 0.5 -0.125) (xy 0.5 0.125) (xy 0.175 0.125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "de03ebfa-c60b-494f-b31c-8fe1917065de")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/DFN1411-3.stp"
+		(offset
+			(xyz -0.12 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

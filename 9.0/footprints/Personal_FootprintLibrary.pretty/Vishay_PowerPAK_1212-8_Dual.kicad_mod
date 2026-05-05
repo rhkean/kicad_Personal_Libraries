@@ -1,0 +1,222 @@
+(footprint "Vishay_PowerPAK_1212-8_Dual"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)")
+	(tags "Vishay_PowerPAK_1212-8_Dual")
+	(property "Reference" "Q**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "094bb27b-032d-441f-8337-c0658dcb1f12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "Vishay_PowerPAK_1212-8_Dual"
+		(at 0 2.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efe16acb-c9e7-4d00-bdb0-a44529bda15b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c6025fb-44f8-4c59-b53a-22f315906832")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f2be74a-9d14-45df-904f-8bd8e275daa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.725 -2.125)
+		(end 1.725 -2.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11112ba6-e002-4b32-81b2-b29462b6eaa5")
+	)
+	(fp_line
+		(start -1.725 1.725)
+		(end -1.725 -2.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4452a2b-ac22-4204-9867-7910587bfa95")
+	)
+	(fp_line
+		(start -1.725 1.725)
+		(end -1.325 2.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "15fc658f-6b9d-4a85-b48d-10c3193c271c")
+	)
+	(fp_line
+		(start 1.725 -2.125)
+		(end 1.725 2.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08a7340f-88dd-40b0-bd3d-cce29e17206c")
+	)
+	(fp_line
+		(start 1.725 2.125)
+		(end -1.325 2.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e80f639-029f-4f2a-970e-87e2228f1936")
+	)
+	(fp_rect
+		(start -1.775 -1.775)
+		(end 1.775 1.775)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8800e544-6f6c-406b-99c8-d21c0b997533")
+	)
+	(fp_rect
+		(start -1.525 -1.525)
+		(end 1.525 1.525)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b002c415-5854-43d2-87eb-9aaf6dae4f6f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "143ce523-59eb-4072-8471-0a5974611cc8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.99 1.435 90)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb13210f-25b0-4163-b62a-be1291d35175")
+	)
+	(pad "2" smd rect
+		(at -0.33 1.435 90)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "387f3871-678a-45b4-9c0c-5a8de5192085")
+	)
+	(pad "3" smd rect
+		(at 0.33 1.435 90)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c0923cc-b68e-49f0-a39e-7b5abdb76f5f")
+	)
+	(pad "4" smd rect
+		(at 0.99 1.435 90)
+		(size 0.99 0.405)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ae71757-b64c-4352-bc9d-af56a65737e1")
+	)
+	(pad "5" smd custom
+		(at 0.607499 -0.5575 90)
+		(size 1.725 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.3725 -0.09) (xy 0.8625 -0.09) (xy 0.8625 0.165) (xy 1.3725 0.165) (xy 1.3725 0.5875) (xy 0.6125 0.5875)
+					(xy 0.6125 -0.495) (xy 1.3725 -0.495)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3d6444bf-8e56-4df5-85fb-da00d5f8caf4")
+	)
+	(pad "6" smd custom
+		(at -0.607499 -0.5575 90)
+		(size 1.725 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.3725 -0.165) (xy 0.8625 -0.165) (xy 0.8625 0.09) (xy 1.3725 0.09) (xy 1.3725 0.495) (xy 0.6125 0.495)
+					(xy 0.6125 -0.5875) (xy 1.3725 -0.5875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "698ad7a5-72ee-4455-8d16-1f3ffc2b9fc5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_1212-8_Dual.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

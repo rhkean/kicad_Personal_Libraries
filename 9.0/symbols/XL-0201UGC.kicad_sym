@@ -1,0 +1,96 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+
+  (symbol "XL-0201UGC" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "LED" (at 0 6.858 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "XL-0201UGC" (at 0.254 9.906 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED0201-2_0r65x0r35-H0r40-P0r41" (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.bocangku.cn" (at 0 -12.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "XL-0201UGC_0_1"
+      (polyline
+        (pts
+          (xy -1.27 1.524)
+          (xy -1.27 -1.524)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.016 3.81)
+          (xy -0.508 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 0 3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 0.508 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 2.794)
+          (xy 0 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.794)
+          (xy -1.016 3.81)
+          (xy -1.016 3.302)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "XL-0201UGC_1_1"
+      (polyline
+        (pts
+          (xy 1.27 1.524)
+          (xy -1.27 0)
+          (xy 1.27 -1.524)
+          (xy 1.27 1.524)
+        )
+        (stroke (width 0.1524) (type solid))
+        (fill (type outline))
+      )
+      (pin passive line (at -7.62 0 0) (length 5.08)
+        (name "Cathode" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 7.62 0 180) (length 5.08)
+        (name "Anode" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

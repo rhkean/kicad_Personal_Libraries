@@ -1,0 +1,191 @@
+(footprint "CMC_0805"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Commonmode Choke, 0805")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0cf5d9e5-ebf3-4c91-bd66-472a9fe0db4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TDK"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fbea2a6-c7f3-4bb8-a329-bf072423c0a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f1b4b9c-cd7b-4612-b80f-842a2b3111cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7a6cefb-0c2c-4d5c-863b-ba1567a2b61a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 0.8)
+		(end -1.5 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e641498f-ef76-4c2c-8502-f51791f1de17")
+	)
+	(fp_line
+		(start -1.25 -0.8)
+		(end -1.5 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23f2e841-f271-4a70-a61c-52b14dba9a79")
+	)
+	(fp_line
+		(start -1.25 -0.8)
+		(end 1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e202942a-c0fa-4cd0-8ddc-20c44ac78281")
+	)
+	(fp_line
+		(start 1.5 -0.8)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "843bef60-96e1-4abb-9842-420477f1a5b1")
+	)
+	(fp_line
+		(start 1.5 0.8)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "feac6c62-0816-4d05-b2a2-b3f7d400abbe")
+	)
+	(fp_rect
+		(start -1.25 -0.85)
+		(end 1.25 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8fe6753c-8bd7-4a01-a6fe-4a116e512eb2")
+	)
+	(fp_rect
+		(start -1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "280a1594-bfa2-4d2b-9763-c1bce812de97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b7158edd-5072-4ccd-8e85-bfc01237ffd7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.925 -0.4 270)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "abbfe26e-44cc-4f06-91c1-f64cefeab0df")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 0.4 270)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "6d76a2ca-87ea-4e74-bb16-1b59187291fd")
+	)
+	(pad "3" smd roundrect
+		(at 0.925 0.4 270)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "0cab1e15-8cb1-4620-a1da-84a653bbe6c7")
+	)
+	(pad "4" smd roundrect
+		(at 0.925 -0.4 270)
+		(size 0.4 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "5fdb02db-6ed1-43d6-93c0-e06f94c06792")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/ACM2012-2P.STEP"
+		(offset
+			(xyz 0 0 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

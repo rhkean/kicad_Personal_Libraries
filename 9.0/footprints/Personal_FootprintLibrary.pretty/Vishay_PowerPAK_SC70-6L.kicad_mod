@@ -1,0 +1,200 @@
+(footprint "Vishay_PowerPAK_SC70-6L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SIA931DJ-T1-GE3-3")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "6a2d3610-c7d1-4259-bd7b-20603cabd6e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "SIA931DJT1GE3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99072e1a-6402-4606-ab8b-1c7ecc81bf9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf0e1695-2f71-4de4-9a2f-54e52bb13619")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c95e871-fb8a-42ca-9d90-8cdcb962b6a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.225 -1.3)
+		(end 1.225 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6033709a-321b-435c-8cce-644a5f68483a")
+	)
+	(fp_line
+		(start -1.225 0.9)
+		(end -1.225 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7a5247fd-b9a0-4c95-9f3f-ebfc82f1ff3b")
+	)
+	(fp_line
+		(start -1.225 0.9)
+		(end -0.825 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f378b5f-bd3b-4553-a639-154177cc5fd9")
+	)
+	(fp_line
+		(start 1.225 -1.3)
+		(end 1.225 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35e10d48-f1a8-42d0-98d6-f4a6962d56a4")
+	)
+	(fp_line
+		(start 1.225 1.3)
+		(end -0.825 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d42a811-6339-4195-8a02-855a6a5c98ec")
+	)
+	(fp_rect
+		(start -1.275 -1.275)
+		(end 1.275 1.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0e97ed90-6cfe-4111-86a1-6cf59928f2df")
+	)
+	(fp_rect
+		(start -1.025 -1.025)
+		(end 1.025 1.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6b6fe797-6774-4e46-8d06-a8e12b246b6b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9bda7c0c-97fd-45f0-b4c1-6031737e7e61")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.913)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "505645dd-f811-45f5-b6c3-acfa69ab7e1f")
+	)
+	(pad "2" smd rect
+		(at 0 0.913)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc013c5d-8566-487b-85fa-e4c9484f8dd3")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.913)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2238b88-605d-43f7-af10-d2e4772e9dcc")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.912)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aaf0372e-ee85-4ecc-8e24-48fe61424485")
+	)
+	(pad "5" smd rect
+		(at 0 -0.912)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61b1a77b-90d5-4c89-a698-a0750535c318")
+	)
+	(pad "6" smd rect
+		(at -0.65 -0.912)
+		(size 0.3 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19b32a18-7cfc-48ab-a976-b0cdfc8816a0")
+	)
+	(pad "7" smd rect
+		(at -0.467 0)
+		(size 0.613 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91c54bd8-b7d7-4d46-b98f-564940c16b2c")
+	)
+	(pad "8" smd rect
+		(at 0.467 0)
+		(size 0.613 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ceacb4c2-d755-4fa1-8adc-d1a491720842")
+	)
+	(embedded_fonts no)
+	(model "SIA931DJ-T1-GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

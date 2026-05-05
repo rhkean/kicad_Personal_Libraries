@@ -1,0 +1,228 @@
+(footprint "C_0805_Dense"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C0805_Dense")
+	(tags "Capacitor C0805 Dense")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56ba2769-ffc6-435d-8528-c8e5b5490bd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "C_0805_Dense"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e2b20f6-6518-448d-becb-6cffd2ed57dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08ef4cc-a040-4e03-8e25-8316201dd406")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0402 MLCC Dense Spacing"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e91a10-542e-4196-bc1b-4c478604c717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 -0.425)
+		(end -1.4 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "808710d5-6b23-4077-a6fe-617888b442eb")
+	)
+	(fp_line
+		(start -0.5 -0.85)
+		(end -0.975 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40894590-fa79-4eec-b577-afa9ee27077a")
+	)
+	(fp_line
+		(start -0.5 0.85)
+		(end -0.975 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dfde296-fe36-4b81-bd18-3f6095ef8c1c")
+	)
+	(fp_line
+		(start 0.5 -0.85)
+		(end 0.975 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d54ee5c-06c2-4dce-8d08-3d68a5b38dae")
+	)
+	(fp_line
+		(start 0.5 0.85)
+		(end 0.975 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f35ea93e-2b69-4112-ac29-d7552f07e8df")
+	)
+	(fp_line
+		(start 1.4 -0.425)
+		(end 1.4 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1c8507c-9081-423c-a050-50af3d5a0697")
+	)
+	(fp_arc
+		(start -1.4 -0.425)
+		(mid -1.27552 -0.72552)
+		(end -0.975 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c89a13c-572e-4bd9-aecf-cfa039b15704")
+	)
+	(fp_arc
+		(start -0.975 0.85)
+		(mid -1.27552 0.72552)
+		(end -1.4 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e008a3d-8854-48d0-899b-2e0c04d5d3cf")
+	)
+	(fp_arc
+		(start 0.975 -0.85)
+		(mid 1.27552 -0.72552)
+		(end 1.4 -0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfb7461e-4dd4-4e5e-b50a-db13b0140d7c")
+	)
+	(fp_arc
+		(start 1.4 0.425)
+		(mid 1.27552 0.72552)
+		(end 0.975 0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ac222af-ee65-4937-bbce-df45c2861e88")
+	)
+	(fp_rect
+		(start -1.4 -0.85)
+		(end 1.4 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "030e60af-296e-4659-a7de-55c6f84ffd71")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9f93fb19-1643-4915-95c1-4f6195b05c9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "de830a9a-aa7c-4672-8027-bbb4f118f01e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 0.95 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "d8dcdf11-c927-44a5-8991-97e6e3ae09f9")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 0.95 1.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "019541d5-7d1a-4b86-a9c9-ce5d53af03f3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

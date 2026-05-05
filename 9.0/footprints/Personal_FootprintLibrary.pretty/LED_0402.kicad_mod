@@ -1,0 +1,184 @@
+(footprint "LED_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Discreet LED, 0402 SMD")
+	(tags "LED 0402 SMD")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a07b296-8146-41de-90fc-af4772c7d3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "LED_0402"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd6c5418-b0a0-47bc-b682-d724c3b56b6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c1111b0-9181-4625-97c8-51d5d1e2481b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Discreet LED, 0402 SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6cc3f7-f136-4e3f-ad56-934b4a8391f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.025 -0.35)
+		(end -0.725 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "642e639d-ef3e-4847-a60e-f9b25eb2fc3f")
+	)
+	(fp_line
+		(start -1.025 0.35)
+		(end -1.025 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "313b791e-fce5-476f-8974-c7f13adc9566")
+	)
+	(fp_line
+		(start -0.725 -0.65)
+		(end 1.025 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "868f747c-d4a1-4863-8b6a-299cfb2709f0")
+	)
+	(fp_line
+		(start -0.725 0.65)
+		(end -1.025 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3259df0b-7ece-410c-87f3-d353d54b8f66")
+	)
+	(fp_line
+		(start 1.025 -0.65)
+		(end 1.025 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aef8da34-7b41-4f68-ac01-853974550621")
+	)
+	(fp_line
+		(start 1.025 0.65)
+		(end -0.725 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "025a35f4-1405-476b-a360-705db386a36d")
+	)
+	(fp_rect
+		(start -0.75 -0.5)
+		(end 0.75 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e7a161b1-1899-448d-8a8a-c272e3d0c4af")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4b1a035-b28d-4f14-ae20-cf2fc0cfb6c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7957d8b4-633a-404e-ab6e-f10c17452564")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0)
+		(size 0.65 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "ec9b57b2-7a61-43b1-9bf0-4a4ea6557305")
+	)
+	(pad "2" smd roundrect
+		(at 0.5 0)
+		(size 0.65 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "ea50e779-10e2-43c2-8884-0088fc6823d0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

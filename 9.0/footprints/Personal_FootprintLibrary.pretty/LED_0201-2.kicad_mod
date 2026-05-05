@@ -1,0 +1,226 @@
+(footprint "LED_0201-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.6 0)
+		(layer "F.SilkS")
+		(uuid "e1a8cf92-fb6d-4b5d-8f8f-d4dbeaf7a8bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "LED0201-2_0r65x0r35-H0r40-P0r41"
+		(at -12.895 4.22 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85404e73-9bf2-4886-9166-98787128866e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1218f59-03d8-477f-b2ad-05a3eb12a54a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec2c8f33-7c17-4c5f-9620-3a5e7a83c99c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.1)
+		(end -0.5 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "772661d3-94a9-432b-8214-a893be064795")
+	)
+	(fp_line
+		(start -0.5 -0.1)
+		(end -0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e9f9251-9c3a-4df8-9a22-51fc507581e8")
+	)
+	(fp_line
+		(start -0.5 0.1)
+		(end -0.3 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9cbb6c02-e41f-4a75-b507-e63711192df3")
+	)
+	(fp_line
+		(start -0.3 -0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "015e2e71-0b73-4968-a12e-6fd65ca84ccb")
+	)
+	(fp_line
+		(start -0.3 0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3feeead6-afa7-4783-b6de-510815ccf26c")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f4f1686-ea2f-450f-bc8a-207e2563b966")
+	)
+	(fp_rect
+		(start -0.575 -0.425)
+		(end 0.575 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c48cf412-d920-49f5-8b5c-5246b0774eb7")
+	)
+	(fp_line
+		(start -0.325 -0.175)
+		(end -0.325 0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcfed460-092d-477d-81e3-5a7714cf0846")
+	)
+	(fp_line
+		(start -0.325 -0.175)
+		(end 0.325 -0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58ef23c2-5a78-4f0f-81b1-10ccef86e776")
+	)
+	(fp_line
+		(start 0.075 -0.1)
+		(end 0.075 0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7a73c32a-80dc-4718-aa9e-62b81924c241")
+	)
+	(fp_line
+		(start 0.075 0)
+		(end -0.075 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "47a59c5e-ef46-41c6-84ba-80bd5414148e")
+	)
+	(fp_line
+		(start 0.325 -0.175)
+		(end 0.325 0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b80022ab-8f3a-4843-8d8d-d3d18830a73d")
+	)
+	(fp_line
+		(start 0.325 0.175)
+		(end -0.325 0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c2eb6b0-605e-44ce-b0bc-cb0560255184")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c0f810d1-d761-4181-b357-ee2290cdddf2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.205 0)
+		(size 0.17 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "2e5dfa23-6b00-4f2d-9356-2ec00666c824")
+	)
+	(pad "2" smd rect
+		(at 0.205 0)
+		(size 0.17 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "1b6a10fc-f89b-4b14-bc9f-cf750bd39816")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/LED_XingLight_0201.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
