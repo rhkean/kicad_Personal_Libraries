@@ -1,0 +1,283 @@
+(footprint "WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "WSON NoLead")
+	(property "Reference" "U2"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ded83d4-af12-46a7-9130-0a307ebd5f0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TLV76701DRVx"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "72fdf368-abe8-44e1-875f-d00668b748e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv767.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "340ca148-3ceb-487d-a721-915fa1855325")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1A, 16V Precision Linear Voltage Regulator, with enable pin, Adjustable Output 0.8-13.6V, WSON-6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "369e98f0-1dbb-4396-8c79-0340bce55007")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6227512c-35b8-45b9-b12a-cfba96b320ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "TLV76701DRVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a68a4bd8-b5af-43f1-b510-e8da6191ec2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2863998"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8bd02c8-3ad1-4e2f-9f15-c4abe3d0a9df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/TLV76701DRVR/10434713"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6fd6ca6-6f05-43de-95c6-95d626d44bc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Texas-Instruments/TLV76701DRVR?qs=l7cgNqFNU1h4nW14BHdGSQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49dc0959-8fe1-4909-a4db-78c39a89d111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.325 1.1)
+		(end -1.325 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0a0f19d-fb49-481f-a5c7-62622d46e26a")
+	)
+	(fp_line
+		(start -0.775 -1.1)
+		(end 1.325 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe04189c-7722-40be-a189-3c11fda996e2")
+	)
+	(fp_line
+		(start 1.325 -1.1)
+		(end 1.325 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77970be2-fa09-4845-894a-5b077b1e73fa")
+	)
+	(fp_line
+		(start 1.325 1.1)
+		(end -1.325 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4374478c-7773-4351-b22d-63718f7ea18c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.46004 -1.132379) (xy -1.177197 -1.415222) (xy -1.073671 -1.028851)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a5b647b8-f141-49ef-9184-ba32142ed732")
+	)
+	(fp_rect
+		(start -1.25 -1.25)
+		(end 1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8bbb72fa-1d5c-4b68-8503-5a087f8ff290")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.5) (xy -1 1) (xy 1 1) (xy 1 -1) (xy -0.5 -1)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d07a6c4-017d-4b37-9cd1-3c969c025755")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e363ffb8-da03-485b-ba28-24d76a2fdf9b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 -0.4)
+		(size 0.81 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c51dc37e-3b4f-4fe8-bae1-24531272b41e")
+	)
+	(pad "" smd roundrect
+		(at 0 0.4)
+		(size 0.81 0.64)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fa223307-cdfe-4d29-aa73-75dc7d776cc3")
+	)
+	(pad "1" smd roundrect
+		(at -0.8875 -0.65)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fe941424-f6a4-4b55-bee2-27445ab88d7b")
+	)
+	(pad "2" smd roundrect
+		(at -0.8875 0)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "91557fb0-3c18-4caf-b282-b2abfcedeee7")
+	)
+	(pad "3" smd roundrect
+		(at -0.8875 0.65)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9b5f1562-9656-4b6e-9fcd-b3270d723f93")
+	)
+	(pad "4" smd roundrect
+		(at 0.8875 0.65)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "679d405c-63aa-47d0-afc0-21e30147585b")
+	)
+	(pad "5" smd roundrect
+		(at 0.8875 0)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f514c0c0-13e7-4236-aafb-7fc356f98e19")
+	)
+	(pad "6" smd roundrect
+		(at 0.8875 -0.65)
+		(size 0.375 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "19900127-9f05-4f61-8eef-e178b7ee39fe")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1 1.6)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "7f410d7b-31f3-4f0d-b135-36da79e595d8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,222 @@
+(footprint "DFN1006-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN package size 1006 2 pins")
+	(tags "DFN 1006-2 pins SOD882")
+	(property "Reference" "D9"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5be2c7ca-6f45-4150-8394-992adefca075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TVS"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fb84b1b-64c6-4fc2-9450-b1013f5b4717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D15V0H1U2LP.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59baf6ad-86b7-49db-9368-a264202481fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "16V TVS DFN1006-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e30eacc-b14e-412e-9e59-afd322d3b3e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec1d6c7b-032c-4fb4-b687-c13ac48cf221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "D15V0H1U2LP-7B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6856e685-bb4e-4c5c-9aee-584eb3a479e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C1973850"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbeeb875-282b-424d-8dce-fc3e891d1b0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/diodes-incorporated/D15V0H1U2LP-7B/9089765"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1436bb1c-953d-4156-aeb3-3c3e8e2e227c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/D15V0H1U2LP-7B?qs=y6ZabgHbY%252ByqgwdrQEA6wA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974ff132-dc29-4098-9aea-99681e0b3fa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 0.575)
+		(end -0.8 0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b809ce84-59b9-42d1-a4fa-05b7e94f4726")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9 -0.55) (xy -0.9 -0.55) (xy -0.9 0.275) (xy -0.625 0.55) (xy 0.9 0.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f849c564-c694-48e6-9fb5-6f551aa1cf69")
+	)
+	(fp_rect
+		(start -0.8 -0.45)
+		(end 0.8 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5469239b-24ec-4217-9dc1-bccb0449bc2e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.3) (xy -0.5 -0.3) (xy -0.5 0.15) (xy -0.35 0.3) (xy 0.5 0.3)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6cff24d7-8ad1-4d63-b0bc-5495cf17ed91")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2db41bb7-f94b-4b5c-878a-20bfa1af8169")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0)
+		(solder_paste_margin -0.05)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 0.8)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3c0ba2f3-09b2-4bf1-8fde-43a87168fb1a")
+	)
+	(pad "2" smd roundrect
+		(at 0.4 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0)
+		(solder_paste_margin -0.05)
+		(uuid "e173511a-8043-4577-a1bc-dffa0397710d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/SOD882.step"
+		(offset
+			(xyz 0.75 -0.4 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,289 @@
+(footprint "Texas_-YJN_0.7x0.6mm_PicoStar"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PicoStar YJN 0706")
+	(tags "LGA-3")
+	(property "Reference" "Q8"
+		(at 0 -1.2 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "69add584-f0a1-4491-b93e-e6a6e40c9343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(property "Value" "CSD25501F3"
+		(at 0 1.6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a519d23-29cf-4458-b877-37acd088ca33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25501f3.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f475c0-8484-4a30-ba47-7531739decd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "P-MOSFET transistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5a61ff9-715c-458f-8089-df0680f3cb75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b90085bf-5923-4d68-91dd-ce33fbb1b88a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "CSD25501F3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23a45c3d-d3fb-47ec-af15-429dfa96eb57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2872196"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3035a6c-aaec-460f-9789-0edec10585b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/texas-instruments/CSD25501F3/7809881"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f79fa3e5-246e-4dc0-b1ce-5e0b83dc1d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Texas-Instruments/CSD25501F3?qs=xhbEVWpZdWey9rG5btTfHw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aac75af6-3b66-4fea-8772-75265374f4f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.55 -0.25)
+		(end -0.55 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5324a2b5-c9f9-4377-bbd7-827db6f5af28")
+	)
+	(fp_line
+		(start -0.55 -0.25)
+		(end -0.3 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5de8e96e-b8f6-4ad4-92d0-e6bbbb1a51ef")
+	)
+	(fp_line
+		(start -0.3 -0.5)
+		(end 0.55 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4abfd530-3250-4fbc-9a10-67c481e97889")
+	)
+	(fp_line
+		(start 0.55 0.5)
+		(end -0.55 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0875589a-7c14-461e-a3f8-c501796950b7")
+	)
+	(fp_line
+		(start 0.55 0.5)
+		(end 0.55 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de608daa-b191-4d9e-ab41-67107362cc0f")
+	)
+	(fp_rect
+		(start -0.475 -0.45)
+		(end 0.525 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "22f83f27-c8eb-4f14-a4e8-b26c9a73690c")
+	)
+	(fp_line
+		(start -0.325 0.3)
+		(end -0.325 -0.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a0554b7b-d962-453f-986e-e93eb2a6dc92")
+	)
+	(fp_line
+		(start -0.175 -0.3)
+		(end -0.325 -0.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1b5aa653-8488-4f30-a7f3-b5d318266dba")
+	)
+	(fp_line
+		(start -0.175 -0.3)
+		(end 0.375 -0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "81c358eb-421e-456a-b946-6af4e75f3044")
+	)
+	(fp_line
+		(start 0.375 -0.3)
+		(end 0.375 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4e4149bc-4641-4372-b32b-6dc44bded0ba")
+	)
+	(fp_line
+		(start 0.375 0.3)
+		(end -0.325 0.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b038eb1e-5fb9-4954-9462-a5b1ec571f17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "033a422a-942c-4049-b2fa-b61be91101f2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.175 -0.175)
+		(size 0.35 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(solder_mask_margin -0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "e0178208-c37c-46e0-9178-76db55109826")
+	)
+	(pad "2" smd roundrect
+		(at -0.175 0.175)
+		(size 0.35 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(solder_mask_margin -0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "3bbc3d77-3fbf-4b74-b9fa-3b6af6e54b2d")
+	)
+	(pad "3" smd roundrect
+		(at 0.225 0)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.4)
+		(solder_mask_margin -0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 45)
+		(uuid "3f5d0efd-65ad-4c95-9a3d-3b7ab6446043")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/SOD882.step"
+		(offset
+			(xyz 0.75 -0.4 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)

@@ -59,8 +59,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.76 -0.41)
-		(end 0.76 0.41)
+		(start -0.815 -0.46)
+		(end 0.815 0.46)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -70,8 +70,8 @@
 		(uuid "9829c3b4-7a53-4c3e-966d-a65408da59f1")
 	)
 	(fp_rect
-		(start -0.665 -0.31)
-		(end 0.665 0.31)
+		(start -0.715 -0.36)
+		(end 0.715 0.36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107,7 +107,7 @@
 		(size 0.43 0.42)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0)
 		(solder_paste_margin -0.05)
 		(uuid "b29dfae8-3d7b-4926-9450-21bb945ede18")
 	)
@@ -116,7 +116,7 @@
 		(size 0.43 0.42)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.05)
+		(solder_mask_margin 0)
 		(solder_paste_margin -0.05)
 		(uuid "f28f2feb-1fb8-4ee4-b788-7d4e61578a1d")
 	)

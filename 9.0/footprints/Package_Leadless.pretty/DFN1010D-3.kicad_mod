@@ -1,0 +1,309 @@
+(footprint "DFN1010D-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN 1.0x1.0mm SOT1215")
+	(property "Reference" "Q9"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27d5e0e6-f957-4668-8fa0-f20ec2fbeff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "BC807-25QAZ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3537e0d8-57c9-42a4-8932-7da111bb33cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC807-25QA_40QA.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b91e79-5a88-42b2-9d70-9446daf0131c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BJT PNP 45V 0.5A DFN1010D-3 AEC-Q100"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aef95b7-2501-429a-b137-3aab4e66e7f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BC807-25QAZ/4843106"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "385b15d5-b564-424c-9e14-06c5ba88f6ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Nexperia/BC807-25QAZ?qs=M%2FOdCRO8QQ1THBbFq%252BwpTw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a90d7089-da73-43a1-8eab-241949bb8bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C549402"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1956654b-a80c-44c6-a24c-8d3ec8f59bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "524d2ba0-e110-4a2f-a1a7-8055f7d8050a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "BC807-25QAZ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d798a5d-e250-4de0-87ac-fe2c334bf53e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.8)
+		(end -0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe5bac18-a508-41d3-8f3a-db76d60f3b1c")
+	)
+	(fp_line
+		(start -0.9 -0.4)
+		(end -0.9 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8b90064-f6ca-4fe5-9dc4-4238ab4d149a")
+	)
+	(fp_line
+		(start -0.9 0.8)
+		(end 0.9 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74ce4e8a-2f5f-4e75-a206-bad17cd6a511")
+	)
+	(fp_line
+		(start 0.9 -0.8)
+		(end -0.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9ca07ff-67ab-406b-910e-0dff3037c6fd")
+	)
+	(fp_line
+		(start 0.9 0.8)
+		(end 0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "413389db-ab8b-441c-83cd-ff99bf93108a")
+	)
+	(fp_rect
+		(start -0.8 -0.7)
+		(end 0.8 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2a8e0d1-4867-4737-be1c-c2fdd9a4aa67")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 0.55) (xy 0.5 -0.55) (xy -0.25 -0.55) (xy -0.5 -0.3) (xy -0.5 0.55)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3049ffae-4341-473d-b2ba-7d174c3a8692")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b0547d0-4dc1-4e42-b803-842c28e9a5f1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.45 -0.375)
+		(size 0.4 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(clearance 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7cae5887-71cc-4e95-8448-b14a1c9e20c7")
+	)
+	(pad "2" smd roundrect
+		(at -0.45 0.375)
+		(size 0.4 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(clearance 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "aafe33d7-5fa0-490f-9fc7-9e67c2c1226e")
+	)
+	(pad "3" smd roundrect
+		(at 0.45 0)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(clearance 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d44b60a3-2178-432a-b1cb-98c7041d35e7")
+	)
+	(pad "4" smd custom
+		(at 0 0)
+		(size 0.2 0.71)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin -0.025)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.375) (xy 0 -0.475) (xy 0.1 -0.475) (xy 0.1 0.475) (xy -0.1 0.475)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "149a73fe-77a2-4c64-ac9d-6b714cd0cf02")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/DFN1010D-3_SOT1215.step"
+		(opacity 0.9700)
+		(offset
+			(xyz 0.75 -0.6 0.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)
