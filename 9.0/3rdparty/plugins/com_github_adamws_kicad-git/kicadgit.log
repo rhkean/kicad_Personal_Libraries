@@ -1,6 +1,0 @@
-10:34:13 com_github_adamws_kicad-git.git_plugin_action 41: Plugin executed with KiCad version: 9.0.7
-10:34:13 com_github_adamws_kicad-git.git_plugin_action 42: Plugin executed with python version: '3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]'
-10:34:13 com_github_adamws_kicad-git.git_plugin_action 55: Plugin executed with git version 2.47.3
-
-10:34:13 com_github_adamws_kicad-git.git_plugin_action 68: Board file: /home/rhkean/projects/kicad/ESP32-S3-Pico-D1/ESP32-S3 Pico D1.kicad_pcb
-10:34:13 com_github_adamws_kicad-git.git_plugin_action 78: Repository top directory: /home/rhkean/projects/kicad/ESP32-S3-Pico-D1
